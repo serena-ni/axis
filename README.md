@@ -14,6 +14,9 @@ d / right arrow - rotate world clockwise
 ##### main menu
 ![main menu](preview-image/screenshot2.png)
 
+##### info panel
+![info panel](preview-image/screenshot3.png)
+
 ##### end screen
 ![end screen](preview-image/screenshot1.png)
 
