@@ -3,23 +3,39 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
+    // ------------------
+    // Start Screen buttons
+    // ------------------
     public void StartGame()
     {
         SceneManager.LoadScene("GameScene");
     }
 
-    public void GameOver()
+    public void ShowInfo()
     {
-        SceneManager.LoadScene("EndScreen");
-    }
-    public void RetryGame()
-    {
-        SceneManager.LoadScene("GameScene");
+        // enable info panel here
+        Debug.Log("info button clicked! show instructions panel here.");
+        // example:
+        // infoPanel.SetActive(true);
     }
 
     public void QuitGame()
     {
         Application.Quit();
-        Debug.Log("Quit Game");
+        Debug.Log("Quit Game clicked");
+    }
+
+    public void RetryGame()
+    {
+        SceneManager.LoadScene("GameScene");
+    }
+
+    public void BackToStart()
+    {
+        SceneManager.LoadScene("StartScene");
+    }
+    public void GameOver()
+    {
+        SceneManager.LoadScene("EndScene");
     }
 }
