@@ -17,5 +17,9 @@ d / right arrow - rotate world clockwise
 ##### end screen
 ![end screen](preview-image/screenshot1.png)
 
+#### credits
+- fonts: [Outfit](https://fonts.google.com/specimen/Outfit) and [Inter](https://fonts.google.com/specimen/Inter) from google fonts
+- assets made in figma
+
 #### status
 currently in development
